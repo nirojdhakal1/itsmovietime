@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Enter the Password</title>
+    <link rel="stylesheet" href="password.css">
+</head>
+<body>
+    <div id="password-popup">
+        <h2>Enter password to continue</h2>
+        <input type="password" id="password-input" onkeydown="if(event.keyCode==13) checkPassword()">
+        <button onclick="checkPassword()">Submit</button>
+      </div>
+      <script src="password.js"></script>
+</body>
+</html>
